@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+}
+
+header {
+  background-color: #4e0a4b;
+  color: bisque;
+  height: 6em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+body {
+  background-color: #663342;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+
+
+h3 {
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.armas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.btn_armas {
+  font-size: 4rem;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+}
+.tablero{
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.mensaje {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: rgb(236, 236, 9);
+}
+
+.reiniciar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.reset,
+.computadoraBtn,
+.resultados{
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #5e1259;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(236, 236, 9);
+}
+
+.container-res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.computadora{
+ text-align: center;
+ margin: 0 auto;
+}
